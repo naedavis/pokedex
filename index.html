@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./script.js">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List of pokemon</h1>
+    <div class="pokemon-info">
+    <h2>Welcome to the Pokedex</h2>
+    <p>Please pick a pokemon from the list below to display that pokemon's information</p>
+    </div>
+    <div class="pokemon-list-container">
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/1/')">bulbasaur</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/2/')">ivysaur</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/3/')">venusaur</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/4/')">charmander</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/5/')">charmeleon</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/6/')">charizard</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/7/')">squirtle</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/8/')">wartortle</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/9/')">blastoise</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/10/')">caterpie</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/11/')">metapod</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/12/')">butterfree</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/13/')">weedle</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/14/')">kakuna</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/15/')">beedrill</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/16/')">pidgey</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/17/')">pidgeotto</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/18/')">pidgeot</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/19/')">rattata</button>
+        <button onclick="getPokemonInfo('https://pokeapi.co/api/v2/pokemon/20/')">raticate</button>
+        <br><br>
+        <div class="button-next">
+            <button  onclick="getPokemonList('https://pokeapi.co/api/v2/pokemon/?offset=20&amp;limit=20')">Next</button>
+        </div>
+        
+    </div>
+</body>
+</html>

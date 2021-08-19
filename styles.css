@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+h1{
+    color: #9488fa;
+    margin: 20px;
+    text-align: center;
+
+}
+
+h2 {
+    color: #a89ff8;
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: #d9d5ff;
+    padding: 60px;
+}
+
+.pokemon-list-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.pokemon-list-container button {
+    color: #726e97;
+    font-size: 17px;
+    background-color: #a6d5f0;
+    border: 1px solid #726e97 ;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.pokemon-list-container button:hover{
+    color: #726e97;
+    background: white;
+}
+
+.button-next {
+    margin: 50px;
+    
+
+}
