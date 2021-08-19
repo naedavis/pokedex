@@ -8,9 +8,10 @@
 
 h1{
     color: #9488fa;
+    font-size: 70px;
     margin: 20px;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 h2 {
@@ -25,11 +26,23 @@ body {
     padding: 60px;
 }
 
+.pokemon-info{
+    font-size: 20px;
+    color: #9488fa;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pokemon-info img{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
 .pokemon-list-container {
     margin-top: 20px;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
 
 }
 
@@ -47,8 +60,10 @@ body {
     background: white;
 }
 
-.button-next {
+div .button-next button{
     margin: 50px;
-    
+    font-size: 50px;
+    color: #726e97;
+    background: white;
 
 }
